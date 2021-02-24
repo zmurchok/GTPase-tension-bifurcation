@@ -21,7 +21,7 @@ XPPAUT is available at http://www.math.pitt.edu/~bard/xpp/xpp.html.
 
 ## Contributors
 
-Cole Zmurchok https://zmurchok.github.io
-Matthew Sahota
-Wayne Nagata https://www.math.ubc.ca/~nagata/
-Eric N Cytrynbaum https://www.math.ubc.ca/~cytryn/
+- Cole Zmurchok https://zmurchok.github.io
+- Matthew Sahota
+- Wayne Nagata https://www.math.ubc.ca/~nagata/
+- Eric N Cytrynbaum https://www.math.ubc.ca/~cytryn/
