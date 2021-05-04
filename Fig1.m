@@ -294,9 +294,10 @@ plot(x4(end-1,:),x4(end,:),'color',red*0.6,'linewidth',1)
 snic = plot([x4(end-1,1:515),0.165097],[x4(end,1:515),0.140843],'color',red*0.5+yellow*0.5,'linewidth',1)
 plot(x4b(end-1,:),x4b(end,:),'color',red*0.6,'linewidth',1)
 
-%Hopf
-ns = plot(x2(end-2,s2(2).index:end),x2(end-1,s2(2).index:end),'-','color',red,'linewidth',1)
+%NS
+% ns = plot(x2(end-2,s2(2).index:end),x2(end-1,s2(2).index:end),'-','color',red,'linewidth',1)
 
+%Hopf
 hopf = plot(x2(end-2,1:s2(2).index),x2(end-1,1:s2(2).index),'color',green*0.6,'linewidth',1)
 plot(x2b(end-2,:),x2b(end-1,:),'color',green*0.6,'linewidth',1)
 
@@ -376,7 +377,9 @@ yline(0.12,'k:')
 yline(0.145,'k:')
 yline(0.17,'k:')
 
-legend([sn,hopf,hom,ns,lpc,snic],{'SN','H','HOMC','NS','SNP','SNIC'},'NumColumns',2,'fontsize',8)
+% legend([sn,hopf,hom,ns,lpc,snic],{'SN','H','HOMC','NS','SNP','SNIC'},'NumColumns',2,'fontsize',8)
+legend([sn,hopf,hom,lpc,snic],{'SN','H','HOMC','SNP','SNIC'},'NumColumns',1,'fontsize',8)
+
 
 axis([0.08    0.22        0.1    0.25])
 print(1,'Fig1A.png','-dpng','-r600')
