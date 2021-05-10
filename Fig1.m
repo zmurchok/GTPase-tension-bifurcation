@@ -291,7 +291,8 @@ hold on
 sn = plot(x3(end-1,:),x3(end,:),'color',red*0.6,'linewidth',1)
 plot(x3b(end-1,:),x3b(end,:),'color',red*0.6,'linewidth',1)
 plot(x4(end-1,:),x4(end,:),'color',red*0.6,'linewidth',1)
-snic = plot([x4(end-1,1:515),0.165097],[x4(end,1:515),0.140843],'color',red*0.5+yellow*0.5,'linewidth',1)
+snich = [0.16509656,0.14084249]
+snic = plot([x4(end-1,1:515),snich(1)],[x4(end,1:515),snich(2)],'color',red*0.5+yellow*0.5,'linewidth',1)
 plot(x4b(end-1,:),x4b(end,:),'color',red*0.6,'linewidth',1)
 
 %Hopf
@@ -310,8 +311,8 @@ hom = plot(hompts(1,:),hompts(2,:),'-','color',yellow,'linewidth',1)
 
 %HOM-NS DOT (approx)
 homns=[0.16462912684,0.1419595605];
+
 %SNIC-H DOT (approx)
-snich=[0.165097,0.140843];
 plot(homns(1),homns(2),'k.')
 plot(snich(1),snich(2),'k.')
 
