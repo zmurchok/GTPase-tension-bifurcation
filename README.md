@@ -4,7 +4,7 @@ This repo contains code for a bifurcation analysis of the GTPase-tension model i
 
 ## Requirements
 
-Matcont (we used version 7p2, availble at https://sourceforge.net/projects/matcont/files/matcont/matcont7p2/) and MATLAB. Python (we used version 3.8.7) for Fig 5 (see Fig5_reqs.txt for a list required packages). XPPAUT is available at http://www.math.pitt.edu/~bard/xpp/xpp.html.
+Matcont (we used version 7p2, availble at https://sourceforge.net/projects/matcont/files/matcont/matcont7p2/) and MATLAB. Python (we used version 3.8.3) for Fig 5 (see Fig5_reqs.txt for a list required packages). XPPAUT is available at http://www.math.pitt.edu/~bard/xpp/xpp.html.
 
 ## Contents
 
