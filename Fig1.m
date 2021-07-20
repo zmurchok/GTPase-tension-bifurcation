@@ -369,6 +369,8 @@ set(gcf,'Units','inches','Position',[5,5,3.25,3.25*3/4])
 % print(1,'2par_zoom_in.eps','-depsc','-painters')
 
 axis([0.152    0.1700    0.1340    0.148])
+yline(0.145,'k:')
+
 legend('hide')
 print(1,'Fig1B.png','-dpng','-r600')
 print(1,'Fig1B.eps','-depsc','-painters')
@@ -381,6 +383,7 @@ yline(0.17,'k:')
 % legend([sn,hopf,hom,ns,lpc,snic],{'SN','H','HOMC','NS','SNP','SNIC'},'NumColumns',2,'fontsize',8)
 legend([sn,hopf,hom,lpc,snic],{'SN','H','HOMC','SNP','SNIC'},'NumColumns',1,'fontsize',8)
 
+rectangle('Position',[0.152    0.1340    0.1700-0.152    0.148-0.1340],'EdgeColor','[0.6,0.6,0.6]')
 
 axis([0.08    0.22        0.1    0.25])
 print(1,'Fig1A.png','-dpng','-r600')
